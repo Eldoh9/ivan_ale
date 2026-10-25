@@ -1,0 +1,449 @@
+/*general*/
+@import url(https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Pinyon+Script&display=swap);
+
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*header*/
+
+h2 {
+    font-family: Playfair Display;
+    font-size: 6rem;
+    font-weight: 900;
+    color: #ab5661;
+}
+
+p {
+    font-family: Libre Baskerville;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.pantallainicial {
+    background-image: url(../imagenes/1_header.png);
+    background-size: cover;
+    text-align: center !important;
+    background-position: center center;
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    color: #472935;
+    padding-top: 60%;
+    padding-bottom: 60%;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
+}
+
+.pantallainicial p {
+    text-align: center;
+}
+
+.versalitas {
+    font-family: Libre Baskerville;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+    letter-spacing: 30%;
+    margin: 0;
+    text-align: center;
+}
+
+.playfair {
+    font-family: Playfair Display;
+    font-size: 2rem;
+    letter-spacing: 30%;
+}
+
+.cancion {
+    padding-top: 30px;
+}
+
+.ornamento1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    width: 50%;
+}
+
+.cita {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.cita img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/*padres*/
+
+h3 {
+    font-family: Playfair Display;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ab5661;
+}
+
+h4 {
+    font-family: Playfair Display;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ab5661;
+    padding-bottom: 15px;
+}
+
+.ornamento3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    width: 150%;
+}
+.padres {
+    background-image: url(../imagenes/2_padres.png);
+    text-align: center;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    color: #472935;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
+}
+
+.padres .versalitas {
+    color: #b88328;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffffff;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.titulos {
+    font-family: EB Garamond;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    font-size: 3rem;
+}
+
+.ornamento2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.ornamento3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.faltan {
+    text-align: center;
+    color: #872130;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.display-4 {
+    font-family: Playfair Display;
+    font-size: 9rem;
+    font-weight: 900;
+    color: #b88328;
+}
+
+.tiempo {
+    font-family: PLayfair Display;
+    font-size: 2rem;
+    letter-spacing: 30%;
+    color: #b88328;
+    text-align: center;
+}
+
+
+/*tarjetas*/
+
+.tarjeta.row {
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton {
+    border: none;
+    border-radius: 999em;
+    background-color: #AB5661;
+    text-align: center;
+    width: 40%;
+    transition: all .3s ease;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
+.boton:active {
+    transition: all .3s ease;
+    transform: scale(1.3) translateY(-2px);
+}
+
+.itinerario {
+    background-image: url(../imagenes/2_padres.png);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
+}
+
+.iconoitinerario {
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.itinerario .ornitinerario {
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.tarjit {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.fecha {
+    font-weight: 900;
+}
+
+/*formulario*/
+.confirma {
+    background-image: url(../imagenes/5_confirma.png);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.tiform {
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: center;
+    color: white;
+    background: linear-gradient(
+    45deg,
+    rgba(254, 233, 239, 0.8),
+    40%,   
+    rgba(171, 86, 91, 0.8)    
+    );
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.datos {
+    appearance: none;
+    margin: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 80%;
+    color: white;
+}
+
+.datos::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+legend {
+    color: white;
+    font-weight: 700;
+}
+
+/*media queries*/
+
+@media (max-width: 1200px) {
+
+    .titulos-itinerario {
+        font-size: 2.2rem;
+    }
+
+    .nombres {
+        font-size: 2.3rem;
+    }
+
+    .subs-padres {
+        font-size: 2.3rem;
+    }
+
+    .titulos {
+        font-size: 2.3rem;
+    }
+
+    .icono-itinerario {
+        width: 40%;
+    }
+
+    .ubicacion-pildora {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 5.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .cancion {
+        width: 60%;
+    }
+
+    h2 {
+        font-size: 4.5rem;
+    }
+
+    .nombres {
+        font-size: 1.8rem;
+    }
+
+    .subs-padres {
+        font-size: 1.8rem;
+    }
+
+    .titulos {
+        font-size: 2rem;
+    }
+        
+    .titulos-itinerario {
+        font-size: 1.6rem;
+    }
+
+    .itinerario-contenido, .itinerario-contenido2 {
+        font-size: 1.2rem;
+    }
+
+    .ubicacion-pildora {
+        font-size: 2.8rem;
+    }
+
+    
+    .versalitas {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 4rem; 
+    }
+
+    .titulos {
+        font-size: 1.6rem;
+    }
+
+    .cancion {
+        width: 80%;
+    }
+
+    .icono-itinerario {
+        width: 24%;
+    }
+
+    .ubicacion-pildora {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .playfair {
+        font-size: 1.6rem;
+    }
+
+    .nombres {
+        font-size: 1.3rem;
+    }
+
+    .subs-padres {
+        font-size: 1.3rem;
+    }
+
+    .elevento {
+        background-image: url(../imagenes/3_itinerario_576.png);
+    }
+
+    .datos-itinerario {
+        font-size: 1rem;
+    }
+
+    .icono-itinerario {
+        width: 75%;
+    }
+
+    .titulos-itinerario {
+        font-size: 2rem;
+    }
+
+    .icono-ubicacion {
+        display: none;
+    }
+
+    .ubicacion-pildora {
+        font-size: 2.5rem;
+        display: block;
+        margin-left: 40px;
+    }
+
+    .direccion {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    h2 {
+        font-size: 3rem; 
+    }
+
+    .playfair {
+        font-size: 1.2rem;
+    }
+
+    .nombres {
+        font-size: 1rem;
+    }
+
+    .subs-padres {
+        font-size: 1rem;
+    }
+
+    .titulos {
+        font-size: 1rem;
+    }
+
+    .icono {
+        display: none;
+    }
+
+
+}
