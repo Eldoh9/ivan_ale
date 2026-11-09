@@ -124,13 +124,18 @@ p {
     width: 50%;
 }
 
-.cita {
+.cita1 {
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-image: url(../imagenes/manos.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.cita img {
+.cita1 img {
     max-width: 100%;
     height: auto;
     display: block;
@@ -214,25 +219,38 @@ h4 {
 
 .faltan {
     text-align: center;
-    color: #872130;
+    color: #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-image: url(../imagenes/pedida.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+.faltan h3 {
+    color: #ffffff;
+}
 
 .display-4 {
     font-family: Playfair Display;
     font-size: 9rem;
     font-weight: 900;
-    color: #b88328;
+    color: #ffffff;
 }
 
 .tiempo {
     font-family: PLayfair Display;
     font-size: 2rem;
     letter-spacing: 30%;
-    color: #b88328;
+    color: #ffffff;
     text-align: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, .2);
+    margin-top: 40px;
 }
 
 
@@ -291,6 +309,23 @@ h4 {
 
 .fecha {
     font-weight: 900;
+}
+
+.cita2 {
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-image: url(../imagenes/ivanyale.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cita2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 /*formulario*/
